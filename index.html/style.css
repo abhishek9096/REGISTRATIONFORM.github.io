@@ -1,0 +1,83 @@
+body {
+    background-image:url("milad-fakurian-6zF2CgAZVXY-unsplash.jpg");
+    background-size: 1540px 1000px;
+    background-repeat: no-repeat;
+    font-family: monospace;
+}
+marquee{
+    color: #00ff00;
+    position: absolute;
+    font-weight: bold;
+}
+
+h1 {
+    position: unset;
+    margin:0vh auto 0 auto;
+    color:  whitesmoke;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3{
+    color: orangered;
+    text-align: center;
+}
+
+#form {
+    width: 630px;
+    margin: 1vh auto 0 auto;
+    padding: 20px;
+    background-color: transparent;
+    border-color: whitesmoke;
+    border-radius: 10px;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: gainsboro;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 10px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+footer{
+    color: floralwhite;
+    font-size:18px;
+}
+    
